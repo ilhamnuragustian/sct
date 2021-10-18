@@ -1,0 +1,103 @@
+/*///////sliders budaya desain | zindex -20 s/d -22///////*/
+body{ background: black;}
+
+.slide:nth-of-type(1) {background-image: url(../images/slider/wisata1.jpg)}
+.slide:nth-of-type(2) {background-image: url(../images/slider/wisata2.jpg)}
+.slide:nth-of-type(3) {background-image: url(../images/slider/wisata3.jpg)}
+.slide:nth-of-type(4) {background-image: url(../images/slider/wisata4.jpg)}
+
+section{
+	padding-left: 10%;
+	padding-right: 10%;
+	border-top: 10px solid #00F260;
+}
+.card-galery{
+	padding: 0;
+	transition: transform 0.5s;
+}
+.card-galery:hover{
+    transform: translate(-10px,-10px);
+    filter: brightness(0.7);
+}
+.card-wisata{
+	padding: 0; height: 200px;
+	border:2px solid #00F260;
+}
+.card-wisata2{
+	padding: 0; height: 100px;
+	border:2px solid #00F260;
+	transition: height 0.3s;
+}
+.card-wisata2:hover{
+	height: 150px;
+}
+.box1{height: 200px; }
+.box2{height: 100px;margin-left: -15px; width: 115%}
+.text-wisata{
+	display: block;
+    height: 80px;		margin-top: -80px;
+    background: rgb(0,0,0,0.7);
+    font: 0.7em rubik-regular;
+    text-transform: uppercase;
+    color: white;
+}
+.text-wisata2{
+	display: block;
+    height: 40px;		margin-top: -60px;
+    padding-bottom: 20px;
+    background: rgb(0,0,0,0.7);
+    font: 0.3em rubik-regular;
+    text-transform: uppercase;
+}
+/*-------------------------styling header opening budaya-------------------------*/
+header{
+	padding-top: 10%;
+	color: white;
+}
+.shape-opening{
+	background-color: rgb(2,2,2,0.6);
+	padding: 5% 10% 5% 10%;
+}
+.shape-opening h1{
+	font: 5em allura;
+	font-weight: 400;
+	padding-bottom: 20px;
+	text-shadow: 2px 2px 3px brown;
+}
+.control-slide{
+	padding: 30px;
+}
+.opening-section{
+	background: #00F260;
+	margin-bottom: 50px;
+}
+.text-opening-section{
+	font: 5em bremen;
+	text-align: center;
+	text-transform: capitalize;
+	text-shadow:2px 2px 3px black;
+}
+/*-------------------------styling section wisata alam-------------------------*/
+.alam{
+	background: linear-gradient(to right, #232526, #414345);
+	color: white;
+	padding-bottom: 50px;
+}
+/*-------------------------styling section wisata bahari-------------------------*/
+.bahari{
+	background: linear-gradient(to right, #232526, #414345);
+	color: white;
+	padding-bottom: 50px;
+}
+/*-------------------------styling section wisata buatan-------------------------*/
+.buatan{
+	background: linear-gradient(to right, #232526, #414345);
+	color: white;
+	padding-bottom: 50px;
+}
+/*-------------------------styling section wisata sejarah-------------------------*/
+.sejarah{
+	color: white;
+	background: linear-gradient(to right, #232526, #414345);
+	padding-bottom: 100px;
+}

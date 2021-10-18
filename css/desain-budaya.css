@@ -1,0 +1,85 @@
+body{ background: black;}
+/*///////sliders budaya desain | zindex -20 s/d -22///////*/
+.slide:nth-of-type(1) {background-image: url(../images/slider/budaya1.jpg)}
+.slide:nth-of-type(2) {background-image: url(../images/slider/budaya2.jpg)}
+.slide:nth-of-type(3) {background-image: url(../images/slider/budaya3.jpg)}
+.slide:nth-of-type(4) {background-image: url(../images/slider/budaya4.jpg)}
+
+section{border-top: 10px solid #00F260;}
+.line-title{
+	margin: auto; height: 2px;
+	margin-top: 10px;	
+	margin-bottom: 10px;	
+	border: none; background-color: grey;
+}
+.section-title{
+	position: relative;
+	font: 50px kaushan;
+	text-shadow: 3px 3px 5px rgb(2,2,2,0.6);
+	background-color: rgb(3,3,3,0.6);
+	margin-left: -15px;		margin-right: -15px;
+	padding: 20px;
+}
+
+/*-------------------------styling header opening budaya-------------------------*/
+header{
+	padding-top: 10%;
+	color: white;
+}
+.shape-opening{
+	background-color: rgb(2,2,2,0.6);
+	padding: 5% 10% 5% 10%;
+}
+.shape-opening h1{
+	font: 5em allura;
+	font-weight: 400;
+	padding-bottom: 20px;
+	text-shadow: 2px 2px 3px brown;
+}
+.control-slide{
+	padding: 30px;
+}
+
+/*-------------------------styling section kesenian-------------------------*/
+.kesenian{
+	color: white;
+	background-image: url(../images/budaya/kesenian-gembyung.jpg);
+	background-position-x: -500px; 
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.wrap-kesenian{
+	color: aliceblue;font-size: 20px;
+	background: linear-gradient(to right, #232526, #414345);
+	margin: -15px; padding: 5%;
+}
+
+
+/*-------------------------styling section kuliner-------------------------*/
+.kuliner{
+	background-image: url(../images/budaya/kuliner-bubuyayam.jpg);
+	background-position-x: -500px; 
+	background-attachment: fixed;
+	background-size: 100%;
+	color: white;
+}
+.wrap-kuliner{
+	color: aliceblue;font-size: 20px;
+	background: linear-gradient(to right, #232526, #414345);
+	margin: -15px; padding: 50px;
+}
+
+/*-------------------------styling section adat-------------------------*/
+.adat{
+	color: white;
+	background-image: url(../images/budaya/adat-nadran.jpg);
+	background-position-x: -500px; 
+	background-attachment: fixed;
+	background-size: 100%;
+	margin-bottom: 50px;
+}
+.wrap-adat{
+	color: aliceblue;font-size: 20px;
+	background: linear-gradient(to right, #232526, #414345);
+	margin: -15px; padding: 50px;
+}

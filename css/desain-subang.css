@@ -1,0 +1,303 @@
+body{scroll-behavior: smooth;}
+.text-konten1{
+	padding: 25% 5% 0 5%;
+	font-size: 1em;
+	text-align: justify;
+}
+.line-title{
+	margin: auto; margin-bottom: 10px;	
+	height: 2px;
+	border: none; background-color: #99f2c8;
+}
+/*////////////////////////////styling opening section////////////////////////////*/
+.opening{
+	width: 100%;		height: 680px;
+	display:block;		color:white;	
+	text-shadow: 2px 2px 3px black;
+
+	background-image: url(../images/subang/header.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.wrap-opening{
+	background-color: rgb(2, 1, 12,0.5);
+	float: left;
+	margin-top: -100px;
+}
+.shape-img1{
+	clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
+	shape-outside: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
+	shape-margin: 40px; 
+	height: 730px;
+
+	background-image: url(../images/subang/header.jpg);
+	background-attachment: fixed;
+	background-size: 1300px;
+	background-position-y:80%; 
+	background-position-x:-380px; 
+}
+.logo-subang{
+	margin: 50% 0 0 10%;
+}
+.wrap-bupati{
+	padding: 15% 5% 5% 5%;
+	display: block;
+	float: right;
+}
+.box-bupati{
+	height: 150px; width: 120px;
+	border-radius: 25%;
+	border: 5px solid #b2ffda;
+	box-shadow: 5px 5px 5px black;
+	float: left;
+	transition: transform 1s;
+}
+.box-bupati p{
+	height: 30px;	
+	border: inherit; border-radius: 15px;
+	font-size: 0.8em;
+	text-align: center;
+	background-color: #00a9bc;
+	margin-top:100%;
+	padding: 5px;
+}
+.box-bupati:hover{
+	transform: translate(-20px, -20px);
+}
+.bupati{
+	background-image: url(../images/subang/bupati.png);
+	background-size: 100%;
+	margin-left: 10%;	
+	margin-right: 5%;	
+}
+.wakil{
+	background-image: url(../images/subang/wakil.png);
+	background-size: 100%;
+	margin-left: 5%;	
+	margin-right:10%;
+}
+
+.more-info{
+	width: 50px; 		height: 50px;
+	background-color: rgb(0,0,0,0);	
+	display: block;		border: 3px solid #99f2c8;	
+	border-radius: 50%;
+	font-size: 30px;	color: #99f2c8;
+	margin: 10px;	margin-right: 35%;
+	float: right;
+	animation: ripple 3s infinite;
+}
+.more-info:hover{
+	background-color: rgb(87, 142, 116,0.5);	
+	border: 3px solid #b2ffda;	
+	font-size: 30px;	color: #b2ffda;
+	opacity: 1;
+}
+
+/*////////////////////////////styling sejarah section////////////////////////////*/
+.sejarah{
+	height: 780px;
+	padding:2% 5% 2% 5%;
+	display: block;		
+	background-image:linear-gradient(to top right,#ffefba,#ffffff); 
+}
+.wrap-sejarah{
+	width: 100%;		height: 680px;
+	
+}
+.section-title{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 2em;
+}
+
+
+/*-----------------------styling card atau box sejarah---------------------------*/
+.box-sejarah{
+	box-shadow: 3px 3px 5px black;
+	border-radius: 25px;
+	margin-top:50px;	height: 150px;
+	
+	display: block;
+	font-size: 14px;
+	background-size: 100%;
+	background-position-y: -20px; 
+}
+.box-left{float: left;}
+.box-right{float: right;}
+.flipped {transform: rotateY( 180deg );}
+
+.content {
+	padding: 2% 5% 2% 5%;
+	color: white;
+}
+.content h3{
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 4px black;
+}
+.card {
+	transition: transform 0.4s;
+	transform-style: preserve-3d;
+}
+.front{
+	display: block;
+	height: 100%;			width: 100%;
+	color: white;
+	position: absolute;
+	backface-visibility: hidden;
+}
+.back {
+	display: block;
+	height: 100%;			width: 100%;
+	position: absolute;
+
+	background-image: linear-gradient(to top right,#283c86,#45a247);
+	border: inherit;	border-radius: inherit;
+	transform: rotateY(180deg);	
+}
+.front h2{
+	margin-top: 50px;	padding: 10px;
+	background-color: rgb(3,3,3,0.7);
+	font: 25px montserrat-bold;
+}
+.history-text{
+	display: block;
+	width: 100%; height: 100%;
+}
+
+.history1{
+	background-image: url(../images/subang/history-prasejarah.jpg);
+	background-size: 100%; 
+	background-position-y: -50px; 
+	border-radius: inherit;
+}
+.history2{
+	background-image: url(../images/subang/history-pajajaran.jpg); 
+	background-size: 100%;
+	background-position-y: -100px; 
+	border-radius: inherit;
+}
+.history3{
+	background-image: url(../images/subang/history-islam.jpg); 
+	background-size: 100%;
+	background-position-y: -10px; 
+	border-radius: inherit;
+}
+.history4{
+	background-image: url(../images/subang/history-mataram.jpg); 
+	background-size: 100%;
+	background-position-y: -50px; 
+	border-radius: inherit;
+}
+.history5{
+	background-image: url(../images/subang/history-merdeka.jpg);
+	background-size: 100%;
+	background-position-y: -500px;
+	border-radius: inherit;
+}
+/*-----------------------styling card atau box sejarah---------------------------*/
+
+
+/*////////////////////////////styling geografi section////////////////////////////*/
+.geografi{
+	width: 100%;
+	color: white;
+}
+.wrap-geografi{
+	background-color: rgb(5,5,5,0.7);
+	text-align: justify;
+	padding: -15px;
+}
+.shape-upper-diamond{
+	clip-path: polygon(100% 0, 100% 100%, 75% 100%, 50% 0, 25% 100%, 0 100%, 0 0);
+	shape-outside: polygon(100% 0, 100% 100%, 75% 100%, 50% 0, 25% 100%, 0 100%, 0 0);
+	height: 300px;
+	margin-bottom: -200px;
+	
+	background-image: url(../images/subang/geografi.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+}
+.geografi2{
+	background-image: url(../images/subang/geografi.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+}
+.h3-title{
+	font: 1em montserrat-bold;
+	padding-top: 20px;
+	display: block;
+}
+
+/*---------------box wilayah---------------*/
+.shape-wilayah{
+	display: block; 
+	height: 400px; padding: 0;
+	float: left;
+}
+.batas-wilayah{margin-bottom: -200px;}
+.box-wilayah1{width: 100%; height:133px; float: left;}
+.box-wilayah2{width: 33.33%; height:133px; 	float: left;}
+
+p.box-wilayah{
+	margin-top: 10px;
+	font: 2em montserrat-bold;
+}
+p.box-wilayah i{
+	font: 0.5em montserrat-light;
+	text-decoration: none;
+	display: block;
+}
+
+/*---------------box informasi---------------*/
+.shape-informasi{
+	height: 350px; 
+	padding-left: 5%;		padding-top: 50px;
+	background-color: rgb(2,2,2,0);
+}
+
+/*---------------box topografi---------------*/
+.shape-topografi{
+	height: 350px; 
+	padding-right: 5%;		padding-top: 50px;
+}
+.ekonomi{
+	border: 4px solid rgb(5,5,5);
+	padding: 2% 5% 2% 5%;
+	background: rgb(2,2,2,0.7);
+}
+.iklim{
+	border: 4px solid rgb(5,5,5);
+	padding: 2% 5% 2% 5%;
+	background: rgb(2,2,2,0.7);
+}
+
+/*////////////////////////////styling last section////////////////////////////*/
+.last-section{
+	height: 500px;
+	background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+	color: white;
+	text-shadow: 2px 2px 5px black;
+}
+.wrap-last{
+	height: 500px;
+}
+.box-explore1{
+	background-image: linear-gradient(to top right,#1565C0,#b92b27);
+	color: cyan;
+	height: 350px;
+}
+.box-explore2{
+	background-image: linear-gradient(to top right,#1f4037,#99f2c8);
+	color: magenta;
+	height: 350px;
+	margin-bottom: 40px;
+}
+.block-text{
+	font: 3em montserrat-bold;
+	margin-top: 20%;
+	text-shadow: 2px 2px 4px black
+}
+.spin-circle:hover{
+	animation: spinCircle 2s;
+}

@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<link rel="stylesheet" href="../css/font-family.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/layout.css">
+	<link rel="stylesheet" href="../css/desain-budaya.css">
+	<link rel="stylesheet" href="../css/animasi.css">
+    <!-- set icon page -->
+    <link rel="icon" href="../images/logo/logo.png" />
+
+    <title>Budaya Subang</title>
+</head>
+
+<body id="budaya-subang">
+
+<!-- start navbar -->
+<nav class="navbar nav-container">
+    <div class="row">
+        <div class="nav-logo kol-6 ">
+            <img src="../images/logo/logo.png">
+            SCT <b>GROUP</b>
+        </div>
+        <div class="item-navbar kol-1 kol-s-2 center">
+              <a href="../index.html" class="nav-link">Home</a>            
+        </div>
+        <div class="item-navbar kol-1 kol-s-2 center dropdown">
+            <span class="nav-link">About</span>
+            <div class="dropdown-content">
+                <a href="about-subang.html" class="link-dropdown">subang</a>
+                <a href="about-SCTgroup.html" class="link-dropdown">SCT Group</a>
+            </div>
+        </div>
+        <div class="item-navbar kol-1 kol-s-2 center dropdown">
+            <a href="budaya.html" class="nav-link active-page">Budaya</a>
+            <div class="dropdown-content">
+                <a href="#kesenian" class="link-dropdown">Kesenian</a>
+                <a href="#kuliner" class="link-dropdown">Kuliner</a>
+                <a href="#adat" class="link-dropdown">adat</a>
+            </div>
+        </div>
+        <div class="item-navbar kol-1 kol-s-2 center">
+            <a href="wisata.html" class="nav-link">Wisata</a>
+        </div>
+        <div class="item-navbar kol-1 kol-s-2 center">
+            <a href="kontak.html" class="nav-link">Contact</a>
+        </div>
+        <div class="kol-1 kol-s-2">
+            <input type="search" class="search-field">
+        </div>
+    </div>
+</nav>
+<!-- end navbar -->
+
+<!-- header -->
+<header class="first-container">
+	<div class="row">
+        <div class="">
+            <!-- start sliders fullscreen -->
+            <div id="slides">
+                <div class="slide showing"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+            </div>
+            <!-- end sliders  --> 
+        </div>
+
+		    <div class="kol-12 shape-opening center">
+            <h1>Budaya Subang</h1>
+            Subang memiliki banyak budaya khas, budaya yang bernuansa sunda  dan telah ada sejak dulu. Pada halaman ini memaparkan budaya subang yang meliputi adat istiadat, kesenian, dan kuliner tradisional  khas subang. Berikut adalah pemaparan budaya-budaya yang ada di subang.      
+        </div>
+
+        <div class="kol-12 control-slide center">
+            <button class="controls left" id="previous">&lt;</button>
+            <button class="controls right" id="next">&gt;</button>   
+        </div>
+	</div>
+</header>
+
+<!-- kesenian -->
+<section id="kesenian" name="kesenian" class="kesenian">
+	<div class="row">
+        <div class="kol-4"> 
+            <h2 class="section-title">Kesenian Subang</h2>
+        </div>
+		<div class="kol-8">
+			<div class="row wrap-kesenian center">
+                <span>Berikut adalah kesenian-kesenian khas yang ada di subang</span>
+                <br><hr class="line-title">
+            <!-- start box/card thumnail-->
+                <div class="kol-4 kol-s-5 box-wrap center" title="klik untuk artikel" onclick="openModal();currentSlide(1)">
+                    <div class="row">
+                      <div class="bg-card"  style="
+                            background-image: url(../images/budaya/kesenian-sisingaan.jpg);
+                            background-size: 100%;
+                       "></div>
+                      <div class="text-card">
+                        <br><h3 class="text-box center">Sisingaan</h3>
+                      </div>
+                    </div>
+                </div>
+            <!-- end box/card thumbnail -->
+
+            <!-- start box/card thumnail-->
+                <div class="kol-4 kol-s-5 box-wrap center" title="klik untuk artikel" onclick="openModal();currentSlide(2)">
+                    <div class="row">
+                      <div class="bg-card"  style="
+                            background-image: url(../images/budaya/kesenian-doger.jpg);
+                            background-size: 100%;
+                       "></div>
+                      <div class="text-card">
+                        <br><h3 class="text-box center">doger kontrak</h3>
+                      </div>
+                    </div>
+                </div>
+            <!-- end box/card thumbnail -->
+
+            <!-- start box/card thumnail-->
+                <div class="kol-4 kol-s-5 box-wrap center" title="klik untuk artikel" onclick="openModal();currentSlide(3)">
+                    <div class="row">
+                      <div class="bg-card"  style="
+                            background-image: url(../images/budaya/kesenian-gembyung.jpg);
+                            background-size: 100%;
+                       "></div>
+                      <div class="text-card">
+                        <br><h3 class="text-box center">gembyung</h3>
+                      </div>
+                    </div>
+                </div>
+            <!-- end box/card thumbnail -->
+
+            <!-- start box/card thumnail-->
+                <div class="kol-6 kol-s-5 box-wrap center" title="klik untuk artikel" onclick="openModal();currentSlide(4)">
+                    <div class="row">
+                      <div class="bg-card"  style="
+                            background-image: url(../images/budaya/kesenian-sintren.jpg);
+                            background-size: 100%;
+                       "></div>
+                      <div class="text-card">
+                        <br><h3 class="text-box center">sintren</h3>
+                      </div>
+                    </div>
+                </div>
+            <!-- end box/card thumbnail -->
+
+            <!-- start box/card thumnail-->
+                <div class="kol-6 kol-s-5 box-wrap center" title="klik untuk artikel" onclick="openModal();currentSlide(5)">
+                    <div class="row">
+                      <div class="bg-card"  style="
+                            background-image: url(../images/budaya/kesenian-toleat.jpg);
+                            background-size: 100%;
+                       "></div>
+                      <div class="text-card">
+                        <br><h3 class="text-box center">toleat</h3>
+                      </div>
+                    </div>
+                </div>
+            <!-- end box/card thumbnail -->
+	    	</div>
+	   </div><!-- end row wrap-kesenian -->
+	</div>
+</section>
+
+<!-- kuliner -->
+<section id="kuliner" name="kuliner" class="kuliner">
+	<div class="row">
+		<div class="kol-8">
+			<div class="row wrap-kuliner center">
+                <span>Disubang banyak sekali kuliner yang lezat, dan kebanyakan merupakan olahan dari perkebunan.</span>
+                <br><hr class="line-title">
+            <!-- start box/card thumnail-->
+                <div class="kol-3 kol-s-5 box-wrap center" title="klik untuk artikel" onclick="openModal();currentSlide(6)">
+                    <div class="row">
+                      <div class="bg-card"  style="
+                            background-image: url(../images/budaya/kuliner-abonjantungpisang.jpg);
+                            background-size: 250px;
+                       "></div>
+                      <div class="text-card">
+                        <h3 class="text-box center">Abon Jantung Pisang</h3>
+                      </div>
+                    </div>
+                </div>
+            <!-- end box/card thumbnail -->
+
+            <!-- start box/card thumnail-->
+                <div class="kol-3 kol-s-5 box-wrap center" title="klik untuk artikel" onclick="openModal();currentSlide(7)">
+                    <div class="row">
+                      <div class="bg-card"  style="
+                            background-image: url(../images/budaya/kuliner-dodolnanas.jpg);
+                            background-size: 250px;
+                       "></div>
+                      <div class="text-card">
+                        <br><br><h3 class="text-box center">Dodol Nanas</h3>
+                      </div>
+                    </div>
+                </div>
+            <!-- end box/card thumbnail -->
+
+            <!-- start box/card thumnail-->
+                <div class="kol-3 kol-s-5 box-wrap center" title="klik untuk artikel" onclick="openModal();currentSlide(8)">
+                    <div class="row">
+                      <div class="bg-card"  style="
+                            background-image: url(../images/budaya/kuliner-tapeketan.jpg);
+                            background-size: 250px;
+                       "></div>
+                      <div class="text-card">
+                        <br><br><h3 class="text-box center">Tape Ketan</h3>
+                      </div>
+                    </div>
+                </div>
+            <!-- end box/card thumbnail -->
+
+            <!-- start box/card thumnail-->
+                <div class="kol-3 kol-s-5 box-wrap center" title="klik untuk artikel" onclick="openModal();currentSlide(9)">
+                    <div class="row">
+                      <div class="bg-card"  style="
+                            background-image: url(../images/budaya/kuliner-oncomdawuan.jpg);
+                            background-size: 250px;
+                       "></div>
+                      <div class="text-card">
+                        <br><h3 class="text-box center">Oncom Dawuan</h3>
+                      </div>
+                    </div>
+                </div>
+            <!-- end box/card thumbnail -->
+
+            <!-- start box/card thumnail-->
+                <div class="kol-3 kol-s-5 box-wrap center" title="klik untuk artikel" onclick="openModal();currentSlide(10)">
+                    <div class="row">
+                      <div class="bg-card"  style="
+                            background-image: url(../images/budaya/kuliner-bubuyayam.jpg);
+                            background-size: 250px;
+                       "></div>
+                      <div class="text-card">
+                        <br><br><h3 class="text-box center">Bubuy Ayam</h3>
+                      </div>
+                    </div>
+                </div>
+            <!-- end box/card thumbnail -->
+
+            <!-- start box/card thumnail-->
+                <div class="kol-3 kol-s-5 box-wrap center" title="klik untuk artikel" onclick="openModal();currentSlide(11)">
+                    <div class="row">
+                      <div class="bg-card"  style="
+                            background-image: url(../images/budaya/kuliner-keripiknanas.jpg);
+                            background-size: 250px;
+                       "></div>
+                      <div class="text-card">
+                        <br><br><h3 class="text-box center">Keripik Nanas</h3>
+                      </div>
+                    </div>
+                </div>
+            <!-- end box/card thumbnail -->
+
+            <!-- start box/card thumnail-->
+                <div class="kol-3 kol-s-5 box-wrap center" title="klik untuk artikel" onclick="openModal();currentSlide(12)">
+                    <div class="row">
+                      <div class="bg-card"  style="
+                            background-image: url(../images/budaya/kuliner-kerupukmiskin.jpg);
+                            background-size: 250px;
+                       "></div>
+                      <div class="text-card">
+                       	<br><h3 class="text-box center">Kerupuk Miskin</h3>
+                      </div>
+                    </div>
+                </div>
+            <!-- end box/card thumbnail -->
+
+            <!-- start box/card thumnail-->
+                <div class="kol-3 kol-s-5 box-wrap center" title="klik untuk artikel" onclick="openModal();currentSlide(13)">
+                    <div class="row">
+                      <div class="bg-card"  style="
+                            background-image: url(../images/budaya/kuliner-tututsoding.jpg);
+                            background-size: 250px;
+                       "></div>
+                      <div class="text-card">
+                        <br><br><h3 class="text-box center">Tutut Soding</h3>
+                      </div>
+                    </div>
+                </div>
+            <!-- end box/card thumbnail -->       
+            </div>
+		</div>
+		<div class="kol-4"> 
+            <h2 class="section-title">Kuliner Subang</h2>
+        </div>
+	</div>
+</section>
+
+<!-- adat istiadat -->
+<section id="adat" name="adat" class="adat">
+	<div class="row">
+		<div class="kol-4">
+            <h2 class="section-title">Adat Subang</h2>  
+        </div>
+		<div class="kol-8">
+			<div class="row wrap-adat center">
+                <span>Berikut adalah adat dari kabupaten subang</span>
+                <br><hr class="line-title">
+            <!-- start box/card thumnail-->
+                <div class="kol-12 kol-s-5 box-wrap center" title="klik untuk artikel" onclick="openModal();currentSlide(14)">
+                    <div class="row">
+                      <div class="bg-card"  style="
+                            background-image: url(../images/budaya/adat-ruwatanbumi.jpg);
+                            background-size: 100%; background-position-y:-200px ;
+                       "></div>
+                      <div class="text-card">
+                        <br><h3 class="text-box center">Ruwatan Bumi</h3>
+                      </div>
+                    </div>
+                </div>
+            <!-- end box/card thumbnail -->
+
+            <!-- start box/card thumnail-->
+                <div class="kol-12 kol-s-5 box-wrap center" title="klik untuk artikel" onclick="openModal();currentSlide(15)">
+                    <div class="row">
+                      <div class="bg-card"  style="
+                            background-image: url(../images/budaya/adat-nadran.jpg);
+                            background-size: 100%; background-position-y:-200px ;
+                       "></div>
+                      <div class="text-card">
+                        <br><h3 class="text-box center">Nadran</h3>
+                      </div>
+                    </div>
+                </div>
+            <!-- end box/card thumbnail -->
+
+            <!-- start box/card thumnail-->
+                <div class="kol-12 kol-s-5 box-wrap center" title="klik untuk artikel" onclick="openModal();currentSlide(16)">
+                    <div class="row">
+                      <div class="bg-card"  style="
+                            background-image: url(../images/budaya/adat-mapagsri.jpg);
+                            background-size: 100%; background-position-y:-200px ;
+                       "></div>
+                      <div class="text-card">
+                        <br><h3 class="text-box center">Mapagsri</h3>
+                      </div>
+                    </div>
+                </div>
+            <!-- end box/card thumbnail -->
+	    	</div>
+	   </div>
+	</div>
+</section>
+
+
+<!-- ///////////////////////artikel budaya subang/////////////////////////////// -->
+<!-- page of fullscren Modal/Lightbox untuk menampilkan artikel card -->
+<div id="artikel-popup" class="modal">
+	<div class="close cursor right" onclick="closeModal()">&times;</div>
+	<!-- Caption text -->
+	<div class="caption-container">
+		<p id="caption"></p>
+	</div>
+
+	<!-- container artikel box/card dalam fullscreeen -->
+	<div class="modal-content">
+
+		<!-- start wrap artikel konten -->
+		<div class="row konten-artikel">
+			<div class="kol-7">
+				<img src="../images/budaya/kesenian-sisingaan.jpg" class="img-artikel" onclick="currentSlide(1)" alt="kesenian subang">
+			</div>
+			<div class="text-artikel">
+				<h1>Sisingaan</h1><br>
+				Kesenian Sisingaan adalah salah satu kesenian khas Subang yang sampai sekarang masih berkembang dengan baik disana. Biasanya kesenian sisingaan ini dimainkan untuk acara acara khusus seperti penerimaan tamu kehormatan, acara khitan anak, dan sebagainya. Dan setiap tanggal 5 April selalu diadakan Festival Sisingaan yang diikuti oleh semua Kecamatan yang ada di Subang untuk memeriahkan acara peringatan hari jadi Kabupaten Subang. Makna dari Sisingaan sendiri yaitu sebagai simbol pelecehan terhadap penjajah, dimana lambang negara itu adalah Singa yang pada waktu itu adalah negara agraris.
+			</div>
+		</div>
+		<!-- end wrap artikel konten -->
+
+		<!-- start wrap artikel konten -->
+		<div class="row konten-artikel">
+			<div class="kol-7">
+				<img src="../images/budaya/kesenian-doger.jpg" class="img-artikel" onclick="currentSlide(2)" alt="kesenian subang">
+			</div>
+			<div class="text-artikel">
+				<h1>Doger Kontrak</h1><br>
+				Doger Kontrak, kesenian khas rakyat Subang ini  mulai berkembang sebelum kemerdekaan Indonesia (1945). Kesenian ini bermula pada saat perusahaan perkebunan The P&T Lands yang saat itu dikuasai Belanda mengijinkan pertunjukan doger di kontrak-kontrak perkebunan yang ada didaerah Subang sebagai balas budi para buruh dan sebagai hiburan, karena sebelumnya para perkebunan tidak diijinkan berhubungan dengan dunia luar. Doger Kontrak Subang mempunyai perbedaan dengan doger lainnya, yaitu dengan adanya perpaduan antara tradisi Ketuk Tilu dan Tari Keurseus.
+			</div>
+		</div>
+		<!-- end wrap artikel konten -->
+
+		<!-- start wrap artikel konten -->
+		<div class="row konten-artikel">
+			<div class="kol-7">
+				<img src="../images/budaya/kesenian-gembyung.jpg" class="img-artikel" onclick="currentSlide(3)" alt="kesenian subang">
+			</div>
+			<div class="text-artikel">
+				<h1>Gembyung</h1><br>
+				Gembyung adalah ensambel musik yang terdiri dari beberapa waditra terbang dengan tarompet yang merupakan jenis kesenian bernafaskan Islam. Meskipun demikian, di lapangan ditemukan beberapa kesenian Gembyung yang tidak menggunakan waditra tarompet.  Gembyung merupakan jenis kesenian tradisional khas daerah Subang yang sampai sekarang masih terus dimainkan. Gembyung biasa dimainkan untuk hiburan rakyat seperti pesta khitanan dan perkawinan atau acara hiburan lainnya dan juga digunakan untuk upacara adat seperti halnya Ruwatan bumi, minta hujan, dan mapag dewi sri. Dalam perkembangannya saat ini, gembyung tidak hanya sebagai seni auditif, tapi sudah menjadi seni pertunjukan yang melibatkan unsur seni lain seperti seni tari.
+			</div>
+		</div>
+		<!-- end wrap artikel konten -->
+
+		<!-- start wrap artikel konten -->
+		<div class="row konten-artikel">
+			<div class="kol-7">
+				<img src="../images/budaya/kesenian-sintren.jpg" class="img-artikel" onclick="currentSlide(4)" alt="kesenian subang">
+			</div>
+			<div class="text-artikel">
+				<h1>Sintren</h1><br>
+				Tari  sintren adalah salah satu kesenian tradisional orang - orang didaerah Jawa, khususnya di Indramayu. Kesenian sintren identik dengan aroma aroma mistis atau magis yang diambil  dari cerita cinta kasih Sulasih dengan Sulandono, Sintren dikenal juga dengan nama Lais. Kesenian sintren banyak dikenal didaerah pesisir utara Jawa Tengah dan Jawa Barat, seperti Brebes, Pemalang, Banyumas, Majalengka, Indramayu, Cirebon, Subang, Pekalongan, dan Kabupaten Kuningan.
+			</div>
+		</div>
+		<!-- end wrap artikel konten -->
+
+		<!-- start wrap artikel konten -->
+		<div class="row konten-artikel">
+			<div class="kol-7">
+				<img src="../images/budaya/kesenian-toleat.jpg" class="img-artikel" onclick="currentSlide(5)" alt="kesenian subang">
+			</div>
+			<div class="text-artikel">
+				<h1>Toleat</h1><br>
+				Toleat  merupakan salah satu jenis musik tiup atau aerophone khas daerah Subang. Toleat biasa dimainkan oleh penggembala di daerah pantura sambil menunggu gembalaannya. Awalnya toleat dibuat dari bahan jerami karena perkembangan jaman dan keawetan bahannya maka sekarang toleat dibuat menggunakan bahan bambu tamiyang, toleat mempunyai nada dasar salendro dan mempunyai delapan lubang nada serta mempunyai suara yang unik menyerupai saxophone, bentuknya mirip dengan suling tetapi mempunyai rit yang dibuat dari kayu berenuk. Toleat dapat dipadukan dengan beberapa jenis alat musik lain sehingga dapat menghasilkan jenis musik yang bagus. Biasanya toleat dipadukan dengan kecapi dan kendang, bahkan sekarang ini toleat dikolaburasikan dengan alat musik modern seperti keyboard.
+			</div>
+		</div>
+		<!-- end wrap artikel konten -->
+
+		<!-- start wrap artikel konten -->
+		<div class="row konten-artikel">
+			<div class="kol-7">
+				<img src="../images/budaya/kuliner-abonjantungpisang.jpg" class="img-artikel" onclick="currentSlide(6)" alt="Kuliner Subang">
+			</div>
+			<div class="text-artikel">
+				<h1>Abon Jantung Pisang</h1><br>
+				Jika abon biasanya terbuat dari daging sapi atau ayam, Subang memiliki makanan khas berupa abon namun dengan bahan dasar yang tidak biasa. Abon khas Subang dibuat dari olahan jantung pisang. Meski bahannya jantung pisang, rasa dan tekstur abon ini tak beda jauh dari abon sapi pada umumnya. Rasanya lezat dan tentunya cocok untuk orang-orang vegetarian.  Inilah mengapa makanan khas Subang ini cukup laris dicari di toko oleh-oleh.
+			</div>
+		</div>
+		<!-- end wrap artikel konten -->
+
+		<!-- start wrap artikel konten -->
+		<div class="row konten-artikel">
+			<div class="kol-7">
+				<img src="../images/budaya/kuliner-dodolnanas.jpg" class="img-artikel" onclick="currentSlide(7)" alt="Kuliner Subang">
+			</div>
+			<div class="text-artikel">
+				<h1>Dodol Nanas</h1><br>
+				Subang terkenal dengan buah nanasnya karena disana buah ini sangat melimpah ruah, buah nanas yang terkenal di Subang yaitu nanas simadu, nanas simadu sering diolah menjadi makanan yang lezat salah satunya dodol. Dodol nanas memiliki tekstur yang lembut, sedikit kenyal, dan legit. Rasanya pun manis dan sangat cocok dimakan untuk teman minum teh disore hari. Makanan khas Subang ini sangat mudah ditemui diberbagai toko oleh-oleh seputaran Subang.
+			</div>
+		</div>
+		<!-- end wrap artikel konten -->
+
+		<!-- start wrap artikel konten -->
+		<div class="row konten-artikel">
+			<div class="kol-7">
+				<img src="../images/budaya/kuliner-tapeketan.jpg" class="img-artikel" onclick="currentSlide(8)" alt="Kuliner Subang">
+			</div>
+			<div class="text-artikel">
+				<h1>Tape Ketan</h1><br>
+				Makanan yang satu ini hampir sama dengan peuyem ketan. Namun, tape ketan biasanya dibuat untuk dimakan sebagai campuran es atau sebagai isian kue. Tape ketan khas Subang memiliki rasa yang lebih manis jika dibandingkan dengan tape ketan pada umumnya. Tape ketan mudah ditemui di pasar-pasar tradisional di Subang. Banyak juga yang dijual di toko oleh-oleh. Karena tape ketan biasanya basah dan lembek, makanan ini tidak begitu tahan lama sehingga kurang cocok dijadikan oleh-oleh, terutama bagi yang harus menempuh perjalanan cukup lama.
+			</div>
+		</div>
+		<!-- end wrap artikel konten -->
+
+		<!-- start wrap artikel konten -->
+		<div class="row konten-artikel">
+			<div class="kol-7">
+				<img src="../images/budaya/kuliner-oncomdawuan.jpg" class="img-artikel" onclick="currentSlide(9)" alt="Kuliner Subang">
+			</div>
+			<div class="text-artikel">
+				<h1>Oncom Dawuan</h1><br>
+				Siapa yang tidak tau oncom, kuliner khas Jawa Barat ini terbuat dari kacang kedelai yang difermentasi sehingga menjadi sebuah makanan yang lezat. Di Subang, oncom yang paling ternama adalah di daerah Dawuan. Oleh karena itu, makanan ini sering disebut oncom dawuan, proses pembuatan oncom ini terbilang masih tradisional, yaitu dengan menggunakan tungku api dan bahan bakunya pun menggunakan kacang tanah, sehingga rasa yang tercipta menjadi sangat nikmat dan menggoda selera.
+			</div>
+		</div>
+		<!-- end wrap artikel konten -->
+
+		<!-- start wrap artikel konten -->
+		<div class="row konten-artikel">
+			<div class="kol-7">
+				<img src="../images/budaya/kuliner-bubuyayam.jpg" class="img-artikel" onclick="currentSlide(10)" alt="Kuliner Subang">
+			</div>
+			<div class="text-artikel">
+				<h1>Bubuy Ayam Subang</h1><br>
+				Bubuy Ayam adalah kuliner khas Subang berupa pepes ayam yang dilumuri dengan bumbu rempah khusus yang dibungkus dengan daun pisang yang amat sangat lezat dan wajib dicoba jika berkunjung ke Subang. Pepes biasanya dibuat dari ikan atau tahu, maka di Subang ayam lah menjadi bahan utama pepes. Makanan ini sangat cocok untuk dibawa sebagai buah tangan bagi wisatawan.
+			</div>
+		</div>
+		<!-- end wrap artikel konten -->
+
+		<!-- start wrap artikel konten -->
+		<div class="row konten-artikel">
+			<div class="kol-7">
+				<img src="../images/budaya/kuliner-keripiknanas.jpg" class="img-artikel" onclick="currentSlide(11)" alt="Kuliner Subang">
+			</div>
+			<div class="text-artikel">
+				<h1>Keripik nanas</h1><br>
+				Keripik  nanas, olahan satu ini mungkin hanya ada di Subang. Keripik ini hasil olahan buah nanas yang digoreng dengan menggunakan mesin penggoreng hampa. Karena jika menggunakan kuali atau wajan, buah nanas tidak akan menjadi keripik karena suhu panas yang berlebih. Makanan ini belum begitu marak dipasaran karena masih sedikit yang memproduksinya.
+			</div>
+		</div>
+		<!-- end wrap artikel konten -->
+
+		<!-- start wrap artikel konten -->
+		<div class="row konten-artikel">
+			<div class="kol-7">
+				<img src="../images/budaya/kuliner-kerupukmiskin.jpg" class="img-artikel" onclick="currentSlide(12)" alt="Kuliner Subang">
+			</div>
+			<div class="text-artikel">
+				<h1>Kerupuk Miskin</h1><br>
+				Kerupuk Miskin adalah kerupuk  khas Subang yang banyak dijual dipinggir jalan dengan cara pembuatannya digoreng menggunakan pasir yang sudah dicuci bersih. Rasa kerupuk ini sangat gurih dan tentunya bebas kolestrol karena tidak digoreng menggunakan minyak seperti kerupuk pada umumnya
+			</div>
+		</div>
+		<!-- end wrap artikel konten -->
+
+		<!-- start wrap artikel konten -->
+		<div class="row konten-artikel">
+			<div class="kol-7">
+				<img src="../images/budaya/kuliner-tututsoding.jpg" class="img-artikel" onclick="currentSlide(13)" alt="Kuliner Subang">
+			</div>
+			<div class="text-artikel">
+				<h1>Tutut Soding</h1><br>
+				Tutut Soding adalah makanan khas Subang yang berbahan dasar keong sawah. Bahan untuk pembuatan Tutut Soding cukup sederhana yaitu tutut soding yang sudah dimasak kemudian dicampur dengan rempah-rempah seperti sereh, gula merah, asam jawa, kunyit, garam, laos, cabai, serta jahe. Tutut Soding sangat lezat, dan memiliki banyak kandungan protein yang tinggi sehingga sangat bagus jika dikonsumsi anak-anak yang sedang dalam masa pertumbuhan.
+			</div>
+		</div>
+		<!-- end wrap artikel konten -->
+
+		<!-- start wrap artikel konten -->
+		<div class="row konten-artikel">
+			<div class="kol-7">
+				<img src="../images/budaya/adat-ruwatanbumi.jpg" class="img-artikel" onclick="currentSlide(14)" alt="adat Subang">
+			</div>
+			<div class="text-artikel">
+				<h1>Ruwatan Bumi</h1><br>
+				Ruwatan  bumi adalah salah satu upacara adat masyarakat agraris, arti dari ruwatan bumi sendiri yaitu mengumpulkan seluruh masyarakat desa sembari mengumpulkan hasil bumi, baik yang sudah diolah maupun yang mentah sebagai ungkapan rasa syukur terhadap Tuhan atas keberhasilan panen pertanian dan sebagai tolak bala. Disubang sendiri sampai saat ini masih melestarikan kebudayaan ini, lebih tepatnya di kampung Banceuy Wangunharja. Di kampung tersebut, Ruwatan bumi sudah dilaksanakan semenjak 1800 masehi.
+			</div>
+		</div>
+		<!-- end wrap artikel konten -->
+
+		<!-- start wrap artikel konten -->
+		<div class="row konten-artikel">
+			<div class="kol-7">
+				<img src="../images/budaya/adat-nadran.jpg" class="img-artikel" onclick="currentSlide(15)" alt="adat Subang">
+			</div>
+			<div class="text-artikel">
+				<h1>Nadran</h1><br>
+				Nadran atau labuh saji adalah upacara adat masyarakat nelayan di pesisir laut sebagai bentuk ungkapan syukur kepada Tuhan atas rezeki yang diberikan-Nya lewat hasil laut dan sebagai permohonan agar diberikan keselamatan dalam melaut serta tangkapan yang melimpah pada tahun mendatang. Di desa Blanakan, kabupaten Subang, setiap tahunnya melaksanakan upacara ini pada bulan Agustus dan  upacara nadran di desa ini sudah dilaksanakan sejak tahun 1950.
+			</div>
+		</div>
+		<!-- end wrap artikel konten -->
+
+		<!-- start wrap artikel konten -->
+		<div class="row konten-artikel">
+			<div class="kol-7">
+				<img src="../images/budaya/adat-mapagsri.jpg" class="img-artikel" onclick="currentSlide(16)" alt="adat Subang">
+			</div>
+			<div class="text-artikel">
+				<h1>Mapag Dewi Sri</h1><br>
+				Sama  seperti halnya Ruwatan Bumi, Mapag Dewi Sri juga sebagai salah satu upacara adat yang biasa dilakukan oleh masyarakat jawa dan sunda untuk menyambut datangnya panen raya sebagai ungkapan rasa syukur kepada Tuhan dan sebagai perwujudan rasa syukur para petani kepada Tuhan YME yang sudah menganugerahkan pangan yang bagus dan melimpah. Di Subang, Mapag Dewi Sri kerap dilaksanakan oleh masyarakat  desa Cibeusi Jalan Cagak. Upacara ini pun merupakan ungkapan rasa hormat para petani kepada Dewi Sri, yang dikenal dengan Dewi padi lambang kesuburan dan kehidupan.
+			</div>
+		</div>
+		<!-- end wrap artikel konten -->
+
+
+		<!-- Next/previous controls -->
+		<div class="wrap-control-artikel">
+			<a class="prev-artikel" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next-artikel" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+	</div>              
+	<!-- akhir container artikel box/card dalam fullscreeen -->                
+</div>
+<!-- end page of fullscren Modal/Lightbox untuk menampilkan artikel card -->
+<!-- ///////////////////////artikel budaya subang/////////////////////////////// -->
+
+
+
+<!-- start footer -->
+<div class="footer" id="footer">
+    <div class="row">
+        <div class="kol-1 kol-s-1 icon-footer left">
+            <img src="../images/giphy.gif" alt="footer" class="img-footer1">
+        </div>
+        <div class="kol-10 kol-s-10 ">
+            <h5 class="center title-footer">&copy;2019 DIGIFEST - SCT GROUP | all right reserved by Hardev 01</h5>
+        </div>
+        <div class="kol-1 kol-s-1 icon-footer right">
+            <img src="../images/giphy.gif" alt="footer" class="img-footer2">            
+        </div>   
+    </div>
+    <div class="row item-footer">      
+        <div class="kol-5 center">
+            <img src="../images/logo/logo-sct.png" alt="logo" width="150px" class="logo-footer"> <br>
+            <p class="about-sct">SCT Group adalah perusahaan yang bergerak dibidang pariwisata khususnya budaya dan wisata yang ada di Subang.</p>
+        </div> 
+    <!-- footer bagian kanan -->
+        <div class="kol-4 kol-s-6 center">
+            <h3 class="submenu-footer">Top Rating</h3>
+            <a href="budaya.html" class="link-footer">Sisingaan</a>
+            <a href="budaya.html" class="link-footer">Dodol Nanas</a>
+            <a href="wisata.html" class="link-footer">Tangkuban Perahu</a>
+            <a href="wisata.html" class="link-footer">Pantai Cirewang</a>
+            <a href="wisata.html" class="link-footer">Mata Air Cimincul</a>
+            <a href="wisata.html" class="link-footer">Capolaga</a>
+        </div>
+        <div class="kol-3 kol-s-6">
+            <h3 class="submenu-footer">Menu</h3>
+            <a href="../index.html" class="link-footer">Homepage</a>
+            <a href="about-subang.html" class="link-footer">About Subang</a>
+            <a href="about-SCTgroup.html" class="link-footer">SCT Group</a>
+            <a href="budaya.html" class="link-footer">Budaya</a>
+            <a href="wisata.html" class="link-footer">Wisata</a>
+            <a href="kontak.html" class="link-footer">Kontak</a>
+        </div>
+    </div>
+</div>
+<!-- end footer -->
+
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/lightbox.js"></script>
+<script src="../js/slide.js"></script>
+
+</body>
+</html>

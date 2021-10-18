@@ -1,0 +1,98 @@
+body{background: grey}
+section{
+	border-top: 10px solid yellow;
+	padding: 0 5% 0 5%;
+}
+.line-title{
+	margin: auto; height: 2px;
+	margin-top: 10px;	
+	margin-bottom: 10px;	
+	border: none; background-color: rgb(2,2,2,0.6);
+}
+.section-title{
+	font: 50px kaushan;
+	text-shadow: 3px 3px 5px rgb(2,2,2,0.6);
+	padding: 20px;
+}
+/*-------------------------styling header opening kontak page-------------------------*/
+.first-container{
+	color: white;
+	background-image: url(../images/bg-loader.png);
+	background-attachment: fixed;
+	background-size: 50%;
+}
+.shape-opening{
+	background-color: rgb(2,2,2,0.6);
+	padding: 5% 10% 5% 10%;
+	margin: 100px 0 100px 0;
+}
+.shape-opening h1{
+	font: 5em allura;
+	font-weight: 400;
+	padding-bottom: 20px;
+	text-shadow: 2px 2px 3px brown;
+}
+
+/*-------------------------styling section form kontak-------------------------*/
+.form-kontak{
+	background-image: linear-gradient(to right,#181818,#BA8B02);
+	color: white;
+}
+.opening-form{
+	height: 500px;
+	padding-top: 100px;
+}
+.box-form{
+	margin-top: 50px;
+	padding: 20px;
+}
+table{
+	border-left: 5px solid white;
+	border-radius: 20px;
+	width: 400px; height: 350px;
+	font-size: 20px;
+	padding:15px; margin: auto;
+	transition: transform 1s;
+}
+table:hover{
+	box-shadow: 2px 2px 5px white;
+	transform: translate(-5px,-5px);
+}
+input,textarea{
+	width: 90%;		height: 30px;
+	color: white;
+	background: none;	border: none;
+	border-bottom: 2px solid white;
+}
+button{
+	margin: 20px; width: 70px;
+	background: none;
+	border-radius: 10px;
+	padding: 10px;
+	border: 2px solid white;
+	color: white;
+	transition: width 1s;
+}
+button:hover{
+	color: cyan;
+	padding: 5px;	width: 100px;
+	font: 18px montserrat-bold;
+	border: 4px solid cyan;
+}
+/*-------------------------styling section info kontak-------------------------*/
+.info-kontak{
+	background-image: linear-gradient(to left,#414d0b,#727a17);
+	color: white;
+	padding-bottom: 100px;
+}
+.box-kontak{
+	height: 400px;
+	background: rgb(2,2,2,0.8);
+}
+.item-sosmed{
+	margin: -10px 0 0 -15px;
+	transition: transform 0.3s;
+}
+.item-sosmed:hover{
+	transform: translate(-10px, -10px);
+}

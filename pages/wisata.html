@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<link rel="stylesheet" href="../css/font-family.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/layout.css">
+	<link rel="stylesheet" href="../css/desain-wisata.css">
+	<link rel="stylesheet" href="../css/animasi.css">
+    <!-- set icon page -->
+    <link rel="icon" href="../images/logo/logo.png" />
+
+    <title>Wisata Subang</title>
+</head>
+
+<body id="about-subang">
+
+<!-- start navbar -->
+<nav class="navbar nav-container">
+    <div class="row">
+        <div class="nav-logo kol-6 ">
+            <img src="../images/logo/logo.png">
+            SCT <b>GROUP</b>
+        </div>
+        <div class="item-navbar kol-1 kol-s-2 center">
+              <a href="../index.html" class="nav-link">Home</a>            
+        </div>
+        <div class="item-navbar kol-1 kol-s-2 center dropdown">
+            <span class="nav-link">About</span>
+            <div class="dropdown-content">
+                <a href="about-subang.html" class="link-dropdown">subang</a>
+                <a href="about-SCTgroup.html" class="link-dropdown">SCT Group</a>
+            </div>
+        </div>
+        <div class="item-navbar kol-1 kol-s-2 center">
+            <a href="budaya.html" class="nav-link">Budaya</a>
+        </div>
+        <div class="item-navbar kol-1 kol-s-2 center dropdown">
+            <a href="wisata.html" class="nav-link active-page">Wisata</a>
+            <div class="dropdown-content">
+                <a href="#alam" class="link-dropdown">alam</a>
+                <a href="#bahari" class="link-dropdown">bahari</a>
+                <a href="#buatan" class="link-dropdown">buatan</a>
+                <a href="#sejarah" class="link-dropdown">sejarah</a>
+            </div>
+        </div>
+        <div class="item-navbar kol-1 kol-s-2 center">
+            <a href="kontak.html" class="nav-link">Contact</a>
+        </div>
+        <div class="kol-1 kol-s-2">
+            <input type="search" class="search-field">
+        </div>
+    </div>
+</nav>
+<!-- end navbar -->
+
+<!-- start opening wisata -->
+<header class="first-container">
+    <div class="row">
+        <div class="">
+            <!-- start sliders fullscreen -->
+            <div id="slides">
+                <div class="slide showing"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+            </div>
+            <!-- end sliders  --> 
+        </div>
+
+        <div class="kol-12 shape-opening center">
+            <h1>Wisata di Subang</h1>
+            Subang memiliki potensi wisata terindah dari pegunungan sampai ke pantai/laut. Apa saja yang wisata di Subang? Berikut ini daftar tempat wisata di Subang     
+        </div>
+
+        <div class="kol-12 control-slide center">
+            <button class="controls left" id="previous">&lt;</button>
+               
+            <button class="controls right" id="next">&gt;</button>   
+        </div>
+    </div>
+</header>
+<!-- end opening wisata -->
+
+<!-- start section wisata alam -->
+<section class="alam" id="alam">
+    <div class="opening-section row">
+        <div class="kol-12">
+            <h1 class="text-opening-section">WISATA ALAM SUBANG</h1>                
+        </div>
+    </div>
+    
+    <h3 class="center">Daftar Wisata Alam</h3>
+    
+    <div class="galery-alam row">
+        <div class="kol-12">            <!-- wisata alam - curug -->
+            <div class="row">
+                <div class="kol-3 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(1)">                    
+                  <div class="row">
+                        <div class="card-wisata"  style="
+                        background-image: url(../images/wisata/capolaga.jpg);
+                        background-size: 100%;
+                        "></div>
+                        <div class="text-wisata">
+                          <br><h3 class="text-box center">curug capolaga</h3>
+                      </div>
+                  </div>
+                </div> <!-- end card img thumbnail -->
+                <div class="none-padding kol-3">
+                    <div class="kol-12 kol-s-6 card-galery box2 center"title="klik untuk artikel" onclick="openModal();currentSlide(2)">
+                      <div class="row">
+                        <div class="card-wisata2"  style="
+                        background-image: url(../images/wisata/curug-cileat.jpg);
+                        background-size: 100%;
+                        "></div>
+                        <div class="text-wisata2">
+                          <br><h3 class="text-box center">curug cileat</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end box/card thumbnail -->
+                    <div class="kol-12 kol-s-6 card-galery box2 center"title="klik untuk artikel" onclick="openModal();currentSlide(3)">
+                      <div class="row">
+                        <div class="card-wisata2"  style="
+                        background-image: url(../images/wisata/curug-bentang.jpg);
+                        background-size: 100%;
+                        "></div>
+                        <div class="text-wisata2">
+                          <br><h3 class="text-box center">curug bentang</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end box/card thumbnail -->
+                </div>
+                <div class="kol-6 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(4)">
+                  <div class="row">
+                    <div class="card-wisata"  style="
+                    background-image: url(../images/wisata/curug-sadim.jpg);
+                    background-size: 100%;
+                    "></div>
+                    <div class="text-wisata">
+                      <br><h3 class="text-box center">curug sadim</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- end box/card thumbnail -->
+            </div>
+            <div class="row">
+                <div class="kol-6 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(5)">
+                  <div class="row">
+                    <div class="card-wisata"  style="
+                    background-image: url(../images/wisata/curug-karembong.jpg);
+                    background-size: 100%;
+                    "></div>
+                    <div class="text-wisata">
+                      <br><h3 class="text-box center">curug karembong</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- end box/card thumbnail -->
+                <div class="none-padding kol-3">
+                    <div class="kol-12 kol-s-6 card-galery box2 center" title="klik untuk artikel" onclick="openModal();currentSlide(6)">
+                      <div class="row">
+                        <div class="card-wisata2"  style="
+                        background-image: url(../images/wisata/curug-cilemper.jpg);
+                        background-size: 100%;
+                        "></div>
+                        <div class="text-wisata2">
+                          <br><h3 class="text-box center">curug cilemper</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end box/card thumbnail -->
+                    <div class="kol-12 kol-s-6 card-galery box2 center" title="klik untuk artikel" onclick="openModal();currentSlide(7)">
+                      <div class="row">
+                        <div class="card-wisata2"  style="
+                        background-image: url(../images/wisata/curug-mandala.jpg);
+                        background-size: 100%;
+                        "></div>
+                        <div class="text-wisata2">
+                          <br><h3 class="text-box center">curug mandala</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end box/card thumbnail -->
+                </div>
+                <div class="kol-3 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(8)">
+                  <div class="row">
+                    <div class="card-wisata"  style="
+                    background-image: url(../images/wisata/curug-cijalu.jpg);
+                    background-size: 100%;
+                    "></div>
+                    <div class="text-wisata">
+                      <br><h3 class="text-box center">curug cijalu</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- end box/card thumbnail -->
+            </div>
+        </div>
+        <div class="kol-12">            <!-- wisata alam - kawah -->
+            <div class="row">
+                <div class="kol-12 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(9)">
+                  <div class="row">
+                    <div class="card-wisata"  style="
+                    background-image: url(../images/wisata/kawah-ratu.jpg);
+                    background-size: 100%;  background-position-y:-200px; 
+                    "></div>
+                    <div class="text-wisata">
+                      <br><h3 class="text-box center">kawah ratu</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- end box/card thumbnail -->
+            </div>
+            <div class="row">
+                <div class="kol-3 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(10)">
+                  <div class="row">
+                    <div class="card-wisata"  style="
+                    background-image: url(../images/wisata/kawah-upas.jpg);
+                    background-size: 100%;
+                    "></div>
+                    <div class="text-wisata">
+                      <br><h3 class="text-box center">kawah upas</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- end box/card thumbnail -->
+                <div class="kol-3 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(11)">
+                  <div class="row">
+                    <div class="card-wisata"  style="
+                    background-image: url(../images/wisata/pemandian-air-panas-ciater.jpg);
+                    background-size: 100%;
+                    "></div>
+                    <div class="text-wisata">
+                      <br><h3 class="text-box center">pemandian air panas ciater</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- end box/card thumbnail -->
+                <div class="kol-3 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(12)">
+                  <div class="row">
+                    <div class="card-wisata"  style="
+                    background-image: url(../images/wisata/batu-kapur.jpg);
+                    background-size: 100%;
+                    "></div>
+                    <div class="text-wisata">
+                      <br><h3 class="text-box center">batu kapur</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- end box/card thumbnail -->
+                <div class="kol-3 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(13)">
+                  <div class="row">
+                    <div class="card-wisata"  style="
+                    background-image: url(../images/wisata/tangkuban-perahu.jpg);
+                    background-size: 100%;
+                    "></div>
+                    <div class="text-wisata">
+                      <br><h3 class="text-box center">tangkuban perahu</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- end box/card thumbnail -->
+            </div>
+        </div>
+        <div class="kol-12">            <!-- wisata alam - hutan -->
+            <div class="row">
+                <div class="kol-6 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(14)">
+                  <div class="row">
+                    <div class="card-wisata"  style="
+                    background-image: url(../images/wisata/tirta-alam.jpg);
+                    background-size: 100%;
+                    "></div>
+                    <div class="text-wisata">
+                      <br><h3 class="text-box center">taman wisata tirta alam</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- end box/card thumbnail -->
+                <div class="kol-6 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(15)">
+                  <div class="row">
+                    <div class="card-wisata"  style="
+                    background-image: url(../images/wisata/kebun-buah-naga.jpg);
+                    background-size: 100%; background-position-y: -100px;
+                    "></div>
+                    <div class="text-wisata">
+                      <br><h3 class="text-box center">kebun buah naga</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- end box/card thumbnail -->
+                <div class="kol-6 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(16)">
+                  <div class="row">
+                    <div class="card-wisata"  style="
+                    background-image: url(../images/wisata/kasumber-sipondok.jpg);
+                    background-size: 100%;
+                    "></div>
+                    <div class="text-wisata">
+                      <br><h3 class="text-box center">kasumber sipondok</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- end box/card thumbnail -->
+                <div class="kol-6 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(17)">
+                  <div class="row">
+                    <div class="card-wisata"  style="
+                    background-image: url(../images/wisata/mata-air-cimincul.jpg);
+                    background-size: 100%;  background-position-y: -200px;
+                    "></div>
+                    <div class="text-wisata">
+                      <br><h3 class="text-box center">mata air cimincul</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- end box/card thumbnail -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section wisata alam -->
+
+<!-- start section wisata bahari -->
+<section class="bahari" id="bahari">
+    <div class="opening-section row">
+        <div class="kol-12">
+            <h1 class="text-opening-section">Wisata Bahari</h1>
+        </div>
+    </div>
+
+    <h3 class="center">Daftar Wisata bahari</h3>
+
+    <div class="galery-bahari row">
+        <div class="kol-12">
+            <div class="kol-6 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(18)">
+              <div class="row">
+                <div class="card-wisata"  style="
+                background-image: url(../images/wisata/pantai-cirewang.jpg);
+                background-size: 100%;  background-position-y: -200px;
+                "></div>
+                <div class="text-wisata">
+                  <br><h3 class="text-box center">pantai cirewang</h3>
+                </div>
+              </div>
+            </div>
+            <!-- end box/card thumbnail -->
+            <div class="kol-6 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(19)">
+              <div class="row">
+                <div class="card-wisata"  style="
+                background-image: url(../images/wisata/pantai-patimban.jpg);
+                background-size: 100%; background-position-y: -200px;
+                "></div>
+                <div class="text-wisata">
+                  <br><h3 class="text-box center">pantai patimban</h3>
+                </div>
+              </div>
+            </div>
+            <!-- end box/card thumbnail -->
+        </div>
+        <div class="kol-12">
+            <div class="kol-6 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(20)">
+              <div class="row">
+                <div class="card-wisata"  style="
+                background-image: url(../images/wisata/pantai-tanjungpura.jpg);
+                background-size: 100%;
+                "></div>
+                <div class="text-wisata">
+                  <br><h3 class="text-box center">pantai tanjungpura</h3>
+                </div>
+              </div>
+            </div>
+            <!-- end box/card thumbnail -->
+            <div class="kol-6 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(21)">
+              <div class="row">
+                <div class="card-wisata"  style="
+                background-image: url(../images/wisata/pondok-bali.jpg);
+                background-size: 100%;  background-position-y: -150px;
+                "></div>
+                <div class="text-wisata">
+                  <br><h3 class="text-box center">pantai pondok bali</h3>
+                </div>
+              </div>
+            </div>
+            <!-- end box/card thumbnail -->
+        </div>      
+    </div>
+</section>
+<!-- end section wisata bahari -->
+
+<!-- start section wisata buatan -->
+<section class="buatan" id="buatan">
+    <div class="opening-section row">
+        <div class="kol-12">
+            <h1 class="text-opening-section">wisata buatan</h1>
+        </div>
+    </div>
+
+    <h3 class="center">Daftar Wisata buatan</h3>
+
+    <div class="galery-buatan row">
+        <div class="kol-12">
+            <div class="kol-6 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(27)">
+              <div class="row">
+                <div class="card-wisata"  style="
+                background-image: url(../images/wisata/kolam-bintang-fantasi.jpg);
+                background-size: 100%;  background-position-y: -100px;
+                "></div>
+                <div class="text-wisata">
+                  <br><h3 class="text-box center">kolam renang bintang fantasi</h3>
+                </div>
+              </div>
+            </div>
+            <!-- end box/card thumbnail -->
+            <div class="kol-6 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(28)">
+              <div class="row">
+                <div class="card-wisata"  style="
+                background-image: url(../images/wisata/waterboom-planet.jpg);
+                background-size: 100%;
+                "></div>    
+                <div class="text-wisata">
+                  <br><h3 class="text-box center">waterboom planet</h3>
+                </div>
+              </div>
+            </div>
+            <!-- end box/card thumbnail -->
+        </div>
+        <div class="kol-12 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(29)">
+          <div class="row">
+            <div class="card-wisata"  style="
+            background-image: url(../images/wisata/alun-subang.jpg);
+            background-size: 100%; background-position-y: -300px;
+            "></div>
+            <div class="text-wisata">
+              <br><h3 class="text-box center">alun-alun subang</h3>
+            </div>
+          </div>
+        </div>
+        <!-- end box/card thumbnail -->
+        <div class="kol-12">
+            <div class="kol-6 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(25)">
+              <div class="row">
+                <div class="card-wisata"  style="
+                background-image: url(../images/wisata/pemancingan-monster.jpg);
+                background-size: 100%; background-position-y: -100px;
+                "></div>
+                <div class="text-wisata">
+                  <br><h3 class="text-box center">pemancingan ikan monster</h3>
+                </div>
+              </div>
+            </div>
+            <!-- end box/card thumbnail -->
+            <div class="kol-6 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(26)">
+              <div class="row">
+                <div class="card-wisata"  style="
+                background-image: url(../images/wisata/kiara-ciater.jpg);
+                background-size: 100%;
+                "></div>
+                <div class="text-wisata">
+                  <br><h3 class="text-box center">kiara ciater</h3>
+                </div>
+              </div>
+            </div>
+            <!-- end box/card thumbnail -->
+        </div>
+    </div>
+</section>
+<!-- end section wisata buatan -->
+
+<!-- start section wisata sejarah -->
+<section class="sejarah" id="sejarah">
+    <div class="opening-section row">
+        <div class="kol-12">
+            <h2 class="text-opening-section">wisata sejarah</h2>
+        </div>
+    </div>
+            
+    <h3 class="center">Daftar Wisata sejarah</h3>
+
+    <div class="galery-sejarah row">
+        <div class="kol-12">
+            <div class="kol-6 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(22)">
+              <div class="row">
+                <div class="card-wisata"  style="
+                background-image: url(../images/wisata/nyai-subanglarang.jpg);
+                background-size: 100%;
+                "></div>
+                <div class="text-wisata">
+                  <br><h3 class="text-box center">situs nyai subanglarang</h3>
+                </div>
+              </div>
+            </div>
+            <!-- end box/card thumbnail -->
+            <div class="kol-6 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(23)">
+              <div class="row">
+                <div class="card-wisata"  style="
+                background-image: url(../images/wisata/rumah-kalijati.jpg);
+                background-size: 100%;
+                "></div>
+                <div class="text-wisata">
+                  <br><h3 class="text-box center">rumah kalijati</h3>
+                </div>
+              </div>
+            </div>
+            <!-- end box/card thumbnail -->
+        </div>
+        <div class="kol-12 kol-s-6 card-galery box1 center" title="klik untuk artikel" onclick="openModal();currentSlide(24)">
+          <div class="row">
+            <div class="card-wisata"  style="
+            background-image: url(../images/wisata/wisma-karya.jpg);
+            background-size: 100%;  background-position-y: -400px;
+            "></div>
+            <div class="text-wisata">
+              <br><h3 class="text-box center">wisma karya</h3>
+            </div>
+          </div>
+        </div>
+        <!-- end box/card thumbnail -->
+    </div>
+</section>
+<!-- end section wisata sejarah -->
+
+
+
+
+<!-- ///////////////////////artikel budaya subang/////////////////////////////// -->
+<!-- page of fullscren Modal/Lightbox untuk menampilkan artikel card -->
+<div id="artikel-popup" class="modal">
+    <div class="close cursor right" onclick="closeModal()">&times;</div>
+    <!-- Caption text -->
+    <div class="caption-container">
+        <p id="caption"></p>
+    </div>
+
+    <!-- container artikel box/card dalam fullscreeen -->
+    <div class="modal-content">
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/capolaga.jpg" class="img-artikel" onclick="currentSlide(1)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Wisata Alam Capolaga</h1><br>
+                Alamat: Kampung Panaruban, Cicadas, Sagalaherang, Subang 41282
+                Tarif: Rp. 10.000/orang 
+                Jam Operasional: 08.00 – 16.00 
+                Telepon: (0260) 470941 
+                Wisata Alam Capolaga adalah tempat rekreasi alam, yang memiliki banyak air terjun yang sangat jernih dan juga cocok untuk tempat camping.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/curug-cileat.jpg" class="img-artikel" onclick="currentSlide(2)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Curug Cileat</h1><br>
+                 Lokasi: Desa Cibogo, Cisalak, Gardusayang, Capunagara, Subang 
+                Tiket Masuk: Rp. 6.000/orang 
+                Jam Operasional: 06.00 – 23.00
+                Telepon: 0856-8247-999
+                Curug Cileat terletak di Gunung Canggah dengan tinggi sekitar 100 meter. Kubangan air di bawahnya sangat luas yaitu sekitar 40 meter sehingga dapat digunakan untuk berenang dan berendam. Curug ini memiliki dua air terjun, salah satunya memiliki aliran yang cukup besar. Fasilitas yang tesedia yaitu gubuk untuk beristirahat dan kamar mandi
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/curug-bentang.jpg" class="img-artikel" onclick="currentSlide(3)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Curug Bentang</h1><br>
+                Alamat: Cibitung, Ciater, Subang, Jabar 41281 
+                Tarif: Rp. 5.000/orang
+                Curug Bentang terletak sekitar 30 km dari pusat Kabupaten Subang, tepatnya di Desa Cibeusi. Air tumpahan curug membentuk danau yang jernih. Di atas curug ini terdapat air terjun lainnya namun sulit dijangkau karena di atas bukit. Tiket masuknya memang cukup murah namun keindahannya sangat berharga.
+                </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/curug-sadim.jpg" class="img-artikel" onclick="currentSlide(4)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Curug Sadim</h1><br>
+                Lokasi: Cicadas, Sagalaherang, Subang, 41282 
+                Tiket Masuk: Rp. 7.500/orang
+                Curug Sadim berada di wilayah Perkebunan Teh Nusantara VII. Curug ini di buka sejak tahun 2008 yang merupakan air terjun yang sangat rapih dan memiliki estetika nuansa yang cocok untuk diabadikan
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/curug-karembong.jpg" class="img-artikel" onclick="currentSlide(5)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Curug Karembung</h1><br>
+                Alamat: Kampung Panarubang, Cicadas, Sagalaherang, Subang
+                 Tarif: Rp. 6.500/orang 
+                Jam Operasional: 08.00 – 16.00 
+                Telepon: (0260) 470941
+                Curug Karembong merupakan salah satu air terjun yang terletak di kawasan wisata alam Capolaga. Air yang mengalir di sini dapat dimanfaatkan untuk terapi air. Terapi air dapat mengatasi masalah pegal linu atau rematik.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/curug-cilemper.jpg" class="img-artikel" onclick="currentSlide(6)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Curug Cilemper</h1><br>
+                Lokasi: Cipancar, Serangpanjang, Subang
+                Curug Cilemper berada di kawasan hutan. Letaknya yang tersembunyi membuat tak banyak wisatawan yang datang ke sini. Walaupun demikian pemandangan yang disajikan sangat indah dan masih alami. Belum ada akomodasi yang tersedia sehingga perlu berjalan kaki membelah hutan dan menyusuri sungai.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/curug-mandala.jpg" class="img-artikel" onclick="currentSlide(7)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Curug Mandala</h1><br>
+                Alamat: Cicadas, Sagalaherang, Subang
+                Tarif: Rp. 10.000/orang
+                Curug Mandala memiliki air terjun yang sangat  deras, untuk mengunjungi tempat ini harus memiliki persiapan karena jalun untuk menuju air terjun sangat lah licin.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/curug-cijalu.jpg" class="img-artikel" onclick="currentSlide(8)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Curug Cijalu</h1><br>
+                Lokasi: Cipancar, Serangpanjang, Subang 
+                Tiket Masuk: Rp. 8.000/orang
+                Lokasi air terjun ini berada dalam kawasan Cagar Alam Gunung Burangrang yang bisa dimanfaatkan oleh para wisatawan. Fasilitas lainnya berupa jalan setapak, mushola, instalasi air, dan lapangan untuk berkemah.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/kawah-ratu.jpg" class="img-artikel" onclick="currentSlide(9)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Kawah Ratu</h1><br>
+                Lokasi: Jl. Gn. Tangkuban Perahu, Cicadas, Sagalaherang, Subang 
+                Tiket Masuk: Rp. 13.000/orang
+                Kawah Ratu berada di kawasan Gunung Tangkuban Perahu. Merupakan kawah terbesar diantara kawah yang lainya tempat ini tentu menjadi pilihan utama wisatawan yang pergi ke sana. Pemandangan yang indah di Kawah Ratu lebih pas dikunjungi saat cuaca cerah
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/kawah-upas.jpg" class="img-artikel" onclick="currentSlide(10)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Kawah Upas</h1><br>
+                Alamat: Cicadas, Sagalaherang, Subang 
+                Kawah Upas berada di sebelah kanan, sekitar 25 menit berjalan kaki dari Kawah Ratu. Kawah Upas tampak lebih kecil dengan dasar yang dangkal dan rata.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/pemandian-air-panas-ciater.jpg" class="img-artikel" onclick="currentSlide(11)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Pemandian Air Panas Ciater</h1><br>
+                Lokasi: Jl. Raya Ciater, Nagrak, Subang, 40154
+                Tiket Masuk: Rp. 28.000/orang
+                Jam Operasional: 08.00 – 16.00
+                 Telepon: (0260) 471800
+                Pemandian Air Panas Ciater merupakan obyek wisata populer di Subang, memiliki banyak air terjun degan alam yang sangat terbuka, bukan hanya pemandian air panas melainkan banyak berbagai macam wahana permainan lainya yang bisa dinikmati.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/batu-kapur.jpg" class="img-artikel" onclick="currentSlide(12)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Wisata Alam Batu Kapur</h1><br>
+                Alamat: Jl. Alternative Sagalaherang-Subang, Curugagung, Subang, 41282 
+                Tarif: Rp. 10.000/orang 
+                Jam Operasional: 08.00 – 17.00
+                Wisata Alam Batu Kapur merupakan pemandian air panas dengan luas keseluruhan 50 hektar. Suhu air panas/hangat mencapai 40 – 45 derajat Celcius dan mengandung belerang. Banyak wahana permainan anak – anak. Para wisatawan banyak yang berendam di sana untuk mengobati berbagai penyakit kulit dan tulang.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/tangkuban-perahu.jpg" class="img-artikel" onclick="currentSlide(13)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Tangkuban Perahu</h1><br>
+                Perahu Lokasi: Jl. Gn. Tangkuban Perahu, Ciater, Subang 
+                Tiket Masuk: Rp. 20.000/orang (dalam negeri), Rp. 200.000/orang (mancanegara)
+                Tangkuban Perahu merupakan wisata gunung aktif. Udara di sini mencapai 2° C di malam hari, dan 17° C di siang hari. Pemandangannya yang indah menjadikan tempat ini sering digunakan sebagai lokasi foto prewedding atau pembuatan film. Ada tiga kawah yang muncul dari letusan yang pernah terjadi di Gunung Tangkuban Perahu. Kawah tersebut antara lain Kawah Upas, Kawah Domas, dan Kawah Ratu.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/tirta-alam.jpg" class="img-artikel" onclick="currentSlide(14)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Taman Wisata Tirta Alam</h1><br>
+                Lokasi: Jl. Sagala Herang, RT 11/14, Sagalaherang Kaler, Subang 
+                Tiket Masuk: Rp. 16.000 – Rp. 19.000/orang 
+                Telepon: 0812-2338-0652
+                Taman Wisata Tirta Alam menyediakan berbagai wahana permainan anak dan juga kolam renang.  Jika ingin menikmati wahana tersebut perlu membayar lagi, rata-rata Rp. 5.000. Di sana terdapat 3 kolam renang yang airnya berasal dari mata air alami, memiliki tempat istirahat yang terdapat banyak tempat kuliner.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/kebun-buah-naga.jpg" class="img-artikel" onclick="currentSlide(15)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Kebun Buah Naga</h1><br>
+                Alamat: Cirangkong, Cijambe, Subang 
+                Kebun Buah Naga di Subang terletak di Cirangkong. Pengunjung yang datang ke sana bisa belajar budi daya buah naga sekaligus membeli buah naga.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/kasumber-sipondok.jpg" class="img-artikel" onclick="currentSlide(16)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Kasumber Mata Air Sipondok (Aqua Subang)</h1><br>
+                Lokasi: Pasanggrahan, Kasomalang, Subang 
+                Jam Operasional: 06.00 – 21.00
+                Mata Air Kasumber banyak yang mengatakan bahwa tempat wisata ini mirip dengan Umbul Ponggok di Klaten. Dasar mata air Kasumber memang sama dengan Umbul Ponggok yaitu berupa pasir dan bebatuan. Pemandangan dasar mata air yang jelas dan jernih tak jauh berbeda dari dasar laut.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/mata-air-cimincul.jpg" class="img-artikel" onclick="currentSlide(17)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Mata Air Cimincul</h1><br>
+                Lokasi: Sukamelang, Kasomalang, Subang 
+                Mata Air Cimincul tidak jauh berbeda dengan Mata Air Kasumber. Di sini wisatawan bisa melihat mata air yang bening sampai ke dasarnya. Walaupun belum dikelola dengan baik, tak ada salahnya untuk mencoba berkunjung ke tempat ini.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/pantai-cirewang.jpg" class="img-artikel" onclick="currentSlide(18)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Pantai Cirewang</h1><br>
+                Alamat: Pangarengan, Legonkulon, Pamanukan, Subang 
+                wisatawan yang ingin menuju ke Pantai Cirewangpara perlu menaiki perahu untuk melewati hutan mangrove. Setelah menikmati pemandangan hutan mangrove barulah sampai ke pantai  Cirewangpara. Pantai ini merupakan tanah timbul sekitar 500 meter persegi, mulai terbentuk tahun 2000-an.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/pantai-patimban.jpg" class="img-artikel" onclick="currentSlide(19)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Pantai Patimban</h1><br>
+                Lokasi: Dusun Patimban, Pusakanagara, Subang, 41255
+                Pantai Pantimban memiliki arus air yang cukup landai sehingga bisa digunakan untuk bermain dengan aman. Wisatawan bisa melakukan berbagai aktivitas seperti bermain volly, sky boat, naik perahu, memancing, dan lain-lain. Pantai Patimban memiliki banyak pohon kelapa.  Fasilitas yang tersedia berupa tempat peristirahatan dan warung-warung makan di tepi pantai.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/pantai-tanjungpura.jpg" class="img-artikel" onclick="currentSlide(20)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Pantai Tanjungpura</h1><br>
+                Lokasi: Tanjung Pura, Patimban, Pusakanagara, Subang 
+                Wisata Bahari Tanjungpura terletak di perbatasan antara Subang dan Indramayu. Lokasinya yang terletak di pinggir jalan raya membuatnya mudah diakses. Di sana selain menikmati pemandangan laut seperti melihat sunset, pengunjung bisa membeli ikan segar yang dijual.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/pondok-bali.jpg" class="img-artikel" onclick="currentSlide(21)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Pondok Bali</h1><br>
+                Lokasi : Desa Mayangan Kecamatan Legonkulon  Kab Subang – jabar
+                Pantai pondok bali  terletak di Desa Mayangan Kecamatan Legonkulon  Kab Subang - jabar
+                Pantai ini merupakan pantai eksotis yang memiliki hamparan pasir yang membentang dan memiliki beberapa aktifitas seperti memancing, bermain pasir, melihat keindahan sunset.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/nyai-subanglarang.jpg" class="img-artikel" onclick="currentSlide(22)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Situs Nyai Subang Larang</h1><br>
+                Lokasi: Jl. Raya Gambarsari, Cikaum Timur, Subang 
+                Telepon: 0812-8112-8068
+                Situs Nyai Subang Larang merupakan tempat peninggalan arkeologi Sunda dari zaman Kerajaan Pajajaran. Banyak peninggalan yang ditemukan seperti bebatuan, perhiasan, serta benda-benda peninggalan Nyai Subang Larang. Situs bersejarah ini diresmikan pada tahun 2011 oleh Dinas Pariwisata dan Kebudayaan Subang.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/rumah-kalijati.jpg" class="img-artikel" onclick="currentSlide(23)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Rumah Sejarah Kalijati</h1><br>
+        Lokasi : Komplek Garuda E 25 Lanud Suryadarm,  Desa Kalijati Barat, Kecamatan Kalijati, Subang.
+        Rumah Sejarah Kalijati berdiri pada tahun 1917, yang merupakan tempat paling bersejarah yang didalamnya berupa lukisan perundingan tentara belanda dan memiliki cerita tentang penyerahan kekuasaan belanda terhadap jepang
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/wisma-karya.jpg" class="img-artikel" onclick="currentSlide(24)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Wisma Karya</h1><br>
+                Lokasi : Jl.ade Irma Suryani National No 02 Karanganyar, Cigedung, Kecamatan Subang, Kabupaten  Subang, Jawa Barat 41211
+                Jam/oprasi : 08:00 – 16:00
+                Telepon : (0260) 411014
+                Wisma karya merupakan tempat bersejarah, karena  wisata ini berdiri sejak zaman penjajahan belanda. Wisma karya subang ini memiliki memiliki berbagai peninggalan yang bisa diabadikan dan dilestarikan. 
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/pemancingan-monster.jpg" class="img-artikel" onclick="currentSlide(25)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Wisata Pancing Ikan Monster Lembah Gunung Kujang</h1><br>
+                Lokasi: Jl. Raya Gunung Tua KM 08, No.11, Cijambe, Subang
+                Tiket Masuk: Rp. 150.000/orang 
+                Jam Operasional: 08.00 – 18.00
+                Wisata Pancing Ikan Monster menyajikan ikan yang  panjangnya  lebih dari satu meter dan berat puluhan kilogram. Ikan yang ditempatkan di kolam pemancingan ada sekitar 18 jenis yaitu Arapaima, Gabus Toma, Leopard, Lele, Lele Abino, Bawal, Redtail Catsh, Patin, Patin Albino, Aligator Spatula, Tagih, Jengiskan, Tiger Fish, Belida, Belida Albino, Gurame, Gurame Albino, dan Gabus Lokal. Pemancing juga bisa tidak membawa pulang semua ikannya dan hanya membayar sebagian saja.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/kiara-ciater.jpg" class="img-artikel" onclick="currentSlide(26)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Kiara Ciater</h1><br>
+                Lokasi: Jl. Raya Ciater, Kel. Palasari, Nagrak, Subang 
+                Tiket Masuk: Rp. 40.000/orang
+                Kolam rendam Kiara Ciater memiliki fasilita lengkap seperti  kamar bilas, kolam air hangat, restoran, toko souvenir, dan lain-lain. Kebersihan kolam dan sekitarnya dapat terlihat sehingga membuat pengunjung menjadi sangat nyaman saat berendam di sana.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/kolam-bintang-fantasi.jpg" class="img-artikel" onclick="currentSlide(27)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Kolam Renang Bintang Fantasi</h1><br>
+                Alamat: Jl. Pasar Impres, Rancasari, Pamanukan, Rancasari, Subang 
+                Tarif: Rp. 20.000/orang
+                Kolam Renang Bintang Fantasi juga memiliki fasilitas yang cukup lengkap. Terdapat kolam yang kedalamannya beragam untuk dewasa dan anak-anak. Selain itu terdapat taman bermain anak, perahu angsa, flying fox, dan lapangan futsal. Pada saat liburan tempat ini lumayan ramai dikunjungi baik dari Subang maupun luar kota.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/waterboom-planet.jpg" class="img-artikel" onclick="currentSlide(28)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Planet Water Boom</h1><br>
+                Alamat: Jl. Brigjen Katamso No. 18A, Dangdeur,Subang 
+                Tarif: Rp. 25.000 – 35.000/orang 
+                Jam Operasional: 09.00 – 18.00 
+                Telepon: (0260) 7423288
+                Planet Water Boom merupakan tempat wisata air di Subang.  Di sini juga terdapat air terjun buatan dan area untuk outbond/flying fox, dan juga memiliki berbagai wahana anak – anak dan dewasa.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+
+        <!-- start wrap artikel konten -->
+        <div class="row konten-artikel">
+            <div class="kol-7">
+                <img src="../images/wisata/alun-subang.jpg" class="img-artikel" onclick="currentSlide(29)" alt="Ayo Berwisata Ke Subang!">
+            </div>
+            <div class="text-artikel">
+                <h1>Alun-Alun Subang</h1><br>
+                Alamat: Jl. Otto Iskandardinata, Karanganyar, Kec. Subang, Kabupaten Subang
+                Buka 24 jam
+                Alun – alun subang bukan hanya untuk berolahraga melainkan tempat untuk bersantai, berfoto, dan juga alun – alun subang di buka bebas untuk masyarakat umu.
+            </div>
+        </div>
+        <!-- end wrap artikel konten -->
+
+        
+
+
+        <!-- Next/previous controls -->
+        <div class="wrap-control-artikel">
+            <a class="prev-artikel" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next-artikel" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>              
+    <!-- akhir container artikel box/card dalam fullscreeen -->                
+</div>
+<!-- end page of fullscren Modal/Lightbox untuk menampilkan artikel card -->
+<!-- ///////////////////////artikel budaya subang/////////////////////////////// -->
+
+
+
+
+
+
+
+<!-- start footer -->
+<div class="footer" id="footer">
+    <div class="row">
+        <div class="kol-1 kol-s-1 icon-footer left">
+            <img src="../images/giphy.gif" alt="footer" class="img-footer1">
+        </div>
+        <div class="kol-10 kol-s-10 ">
+            <h5 class="center title-footer">&copy;2019 DIGIFEST - SCT GROUP | all right reserved by Hardev 01</h5>
+        </div>
+        <div class="kol-1 kol-s-1 icon-footer right">
+            <img src="../images/giphy.gif" alt="footer" class="img-footer2">            
+        </div>   
+    </div>
+    <div class="row item-footer">      
+        <div class="kol-5 center">
+            <img src="../images/logo/logo-sct.png" alt="logo" width="150px" class="logo-footer"> <br>
+            <p class="about-sct">SCT Group adalah perusahaan yang bergerak dibidang pariwisata khususnya budaya dan wisata yang ada di Subang.</p>
+        </div> 
+    <!-- footer bagian kanan -->
+        <div class="kol-4 kol-s-6 center">
+            <h3 class="submenu-footer">Top Rating</h3>
+            <a href="budaya.html" class="link-footer">Sisingaan</a>
+            <a href="budaya.html" class="link-footer">Dodol Nanas</a>
+            <a href="wisata.html" class="link-footer">Tangkuban Perahu</a>
+            <a href="wisata.html" class="link-footer">Pantai Cirewang</a>
+            <a href="wisata.html" class="link-footer">Mata Air Cimincul</a>
+            <a href="wisata.html" class="link-footer">Capolaga</a>
+        </div>
+        <div class="kol-3 kol-s-6">
+            <h3 class="submenu-footer">Menu</h3>
+            <a href="../index.html" class="link-footer">Homepage</a>
+            <a href="about-subang.html" class="link-footer">About Subang</a>
+            <a href="about-SCTgroup.html" class="link-footer">SCT Group</a>
+            <a href="budaya.html" class="link-footer">Budaya</a>
+            <a href="wisata.html" class="link-footer">Wisata</a>
+            <a href="kontak.html" class="link-footer">Kontak</a>
+        </div>
+    </div>
+</div>
+<!-- end footer -->
+
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/lightbox.js"></script>
+<script src="../js/slide.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+@font-face{
+    font-family: "zonapro";
+    src: url(../font/ZonaPro-ExtraLight.otf)
+} 
+ 
+@font-face{
+    font-family: "caviar-dream";
+    src: url(../font/CaviarDreams.ttf)
+} 
+@font-face{
+    font-family: "allura";
+    src: url(../font/Allura-Regular.ttf)
+}
+
+@font-face{
+    font-family: "redressed";
+    src: url(../font/Redressed-Regular.ttf)
+}
+
+@font-face{
+    font-family: "bremen";
+    src: url(../font/bremen.ttf)
+}
+@font-face{
+    font-family: "babyui";
+    src: url(../font/babyui.ttf)
+}
+@font-face{
+    font-family: "kaushan";
+    src: url(../font/KaushanScript-Regular.ttf)
+}
+
+/* font family monsterrat */
+@font-face{
+    font-family: "Montserrat-Bold";
+    src: url(../font/Montserrat-Black.ttf)
+}
+@font-face{
+    font-family: "Montserrat-BoldItalic";
+    src: url(../font/Montserrat-BoldItalic.ttf)
+}
+@font-face{
+    font-family: "Montserrat-Light";
+    src: url(../font/Montserrat-Light.ttf)
+}
+@font-face{
+    font-family: "Montserrat-Regular";
+    src: url(../font/Montserrat-Regular.ttf)
+}
+@font-face{
+    font-family: "Rubik-MediumItalic";
+    src: url(../font/Rubik-MediumItalic.ttf)
+}
+@font-face{
+    font-family: "Rubik-Regular";
+    src: url(../font/Rubik-Regular.ttf)
+}
+ 
